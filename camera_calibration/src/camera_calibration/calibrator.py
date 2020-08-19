@@ -73,7 +73,7 @@ class ChessboardInfo(object):
         self.dim = dim
         self.marker_size = marker_size
         self.aruco_dict = None
-        self.charuco_board = None;
+        self.charuco_board = None
         if pattern=="charuco":
             self.aruco_dict = cv2.aruco.getPredefinedDictionary({
                 "aruco_orig" : cv2.aruco.DICT_ARUCO_ORIGINAL,
